@@ -5,6 +5,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -43,7 +44,12 @@ class ChildActivity : AppCompatActivity() {
                 runOnUiThread { codeView.text = "Code à donner au parent : $code" }
             },
             onError = { msg ->
-                runOnUiThread { codeView.text = "Erreur : $msg" }
+                // Affiche le message d'erreur complet pour aider au debug et l'inscrire dans Logcat
+                val display = "Erreur lors de la génération du code. Voir log pour détails.\n$msg"
+                runOnUiThread {
+                    codeView.text = display
+                }
+                Log.e("Pairing", msg)
             }
         )
 
