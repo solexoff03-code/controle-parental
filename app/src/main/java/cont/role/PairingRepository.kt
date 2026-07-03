@@ -14,19 +14,33 @@ import kotlin.random.Random
  */
 object PairingRepository {
 
-    private val db = FirebaseDatabase.getInstance().reference
-    private val auth = FirebaseAuth.getInstance()
+    // Évaluer les instances à la demande pour éviter d'échouer au chargement de l'objet
+    private val db
+        get() = FirebaseDatabase.getInstance().reference
+
+    private val auth
+        get() = FirebaseAuth.getInstance()
 
     /** S'assure qu'on est authentifié (anonyme) avant d'utiliser la base. */
     private fun ensureSignedIn(onReady: () -> Unit, onError: (String) -> Unit) {
-        val currentUser = auth.currentUser
-        if (currentUser != null) {
-            onReady()
-            return
+        try {
+            val currentUser = try { auth.currentUser } catch (e: Exception) {
+                // Probablement Firebase non initialisé (google-services.json manquant ou mauvaise configuration)
+                onError("Firebase non initialisé : placez votre app/google-services.json et vérifiez le package dans la console Firebase. (${e.message})")
+                return
+            }
+
+            if (currentUser != null) {
+                onReady()
+                return
+            }
+
+            auth.signInAnonymously()
+                .addOnSuccessListener { onReady() }
+                .addOnFailureListener { onError(it.message ?: "Erreur d'authentification") }
+        } catch (e: Exception) {
+            onError(e.message ?: "Erreur interne lors de la configuration Firebase")
         }
-        auth.signInAnonymously()
-            .addOnSuccessListener { onReady() }
-            .addOnFailureListener { onError(it.message ?: "Erreur d'authentification") }
     }
 
     /** Génère un code à 6 chiffres côté enfant et l'enregistre en attente de couplage. */
@@ -36,28 +50,36 @@ object PairingRepository {
         onError: (String) -> Unit = {}
     ) {
         ensureSignedIn(onReady = {
-            val code = (100000..999999).random().toString()
-            db.child("pairings").child(code).child("childDeviceId")
-                .setValue(childDeviceId)
-                .addOnSuccessListener { onResult(code) }
-                .addOnFailureListener { onError(it.message ?: "Impossible de générer le code") }
+            try {
+                val code = (100000..999999).random().toString()
+                db.child("pairings").child(code).child("childDeviceId")
+                    .setValue(childDeviceId)
+                    .addOnSuccessListener { onResult(code) }
+                    .addOnFailureListener { onError(it.message ?: "Impossible de générer le code") }
+            } catch (e: Exception) {
+                onError(e.message ?: "Erreur lors de l'accès à la base Firebase")
+            }
         }, onError = onError)
     }
 
     /** Côté parent : relie son compte au code fourni par l'enfant. */
     fun connectWithCode(code: String, onSuccess: (String) -> Unit, onError: (String) -> Unit) {
         ensureSignedIn(onReady = {
-            db.child("pairings").child(code).child("childDeviceId")
-                .get()
-                .addOnSuccessListener { snapshot ->
-                    val childDeviceId = snapshot.getValue(String::class.java)
-                    if (childDeviceId != null) {
-                        onSuccess(childDeviceId)
-                    } else {
-                        onError("Code invalide ou expiré")
+            try {
+                db.child("pairings").child(code).child("childDeviceId")
+                    .get()
+                    .addOnSuccessListener { snapshot ->
+                        val childDeviceId = snapshot.getValue(String::class.java)
+                        if (childDeviceId != null) {
+                            onSuccess(childDeviceId)
+                        } else {
+                            onError("Code invalide ou expiré")
+                        }
                     }
-                }
-                .addOnFailureListener { onError(it.message ?: "Erreur réseau") }
+                    .addOnFailureListener { onError(it.message ?: "Erreur réseau") }
+            } catch (e: Exception) {
+                onError(e.message ?: "Erreur lors de l'accès à la base Firebase")
+            }
         }, onError = onError)
     }
 }
