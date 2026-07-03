@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "cont.role.app-merged_res-40:/layout_activity_child.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_child.xml"
+    },
+    {
+        "merged": "cont.role.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "cont.role.app-merged_res-40:/xml_accessibility_service_config.xml.flat",
+        "source": "cont.role.app-main-42:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "cont.role.app-merged_res-40:/layout_activity_blocker_settings.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_blocker_settings.xml"
+    },
+    {
+        "merged": "cont.role.app-merged_res-40:/layout_activity_parent.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_parent.xml"
+    }
+]

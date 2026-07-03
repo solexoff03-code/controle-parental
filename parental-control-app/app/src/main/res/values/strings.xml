@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contrôle Parental</string>
+    <string name="accessibility_service_description">
+        Permet de bloquer l\'accès aux applications définies par le parent.
+        Ce service ne lit aucun contenu et ne simule aucune action à la place de l\'utilisateur.
+    </string>
+    <string name="toast_connected_to_child">Connecté à l\'appareil enfant</string>
+    <string name="toast_connect_first">Connecte-toi d\'abord avec un code</string>
+    <string name="location_format">Position : %1$s, %2$s\nMise à jour : %3$s</string>
+    <string name="toast_read_error">Erreur de lecture</string>
+    <string name="code_display_label">Code à donner au parent : %1$s</string>
+    <string name="notif_channel_name">Contrôle parental - Localisation</string>
+    <string name="notif_title">Contrôle parental actif</string>
+    <string name="notif_text">Le partage de position est activé</string>
+
+    <!-- Main Activity -->
+    <string name="title_parental_control">Contrôle parental</string>
+    <string name="btn_i_am_parent">Je suis le parent</string>
+    <string name="btn_this_is_child">Cet appareil est celui de l\'enfant</string>
+
+    <!-- Parent Activity -->
+    <string name="hint_code_from_child">Code à 6 chiffres donné par l\'enfant</string>
+    <string name="btn_connect">Se connecter</string>
+    <string name="btn_manage_blocked_apps">Gérer les apps bloquées</string>
+    <string name="tv_waiting_location">En attente de position...</string>
+
+    <!-- Child Activity -->
+    <string name="child_supervision_notice">Ce téléphone est supervisé par un parent.\nLe suivi de position est visible en permanence dans la barre de notifications.</string>
+    <string name="tv_generating_code">Génération du code...</string>
+    <string name="btn_enable_location">Activer le partage de position</string>
+    <string name="btn_enable_accessibility">Activer le blocage d\'apps (Accessibilité)</string>
+
+    <!-- Blocker Settings -->
+    <string name="btn_save">Enregistrer</string>
+</resources>

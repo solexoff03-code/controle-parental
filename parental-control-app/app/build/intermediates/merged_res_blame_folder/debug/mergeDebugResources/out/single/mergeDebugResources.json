@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "cont.role.app-debug-40:/layout_activity_main.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-debug-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-debug-40:\\layout_activity_blocker_settings.xml.flat",
+        "source": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-main-42:\\layout\\activity_blocker_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-debug-40:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-main-42:\\xml\\accessibility_service_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-debug-40:\\layout_activity_child.xml.flat",
+        "source": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-main-42:\\layout\\activity_child.xml"
+    },
+    {
+        "merged": "cont.role.app-debug-40:/layout_activity_child.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_child.xml"
+    },
+    {
+        "merged": "cont.role.app-debug-40:/layout_activity_parent.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_parent.xml"
+    },
+    {
+        "merged": "cont.role.app-debug-40:/layout_activity_blocker_settings.xml.flat",
+        "source": "cont.role.app-main-42:/layout/activity_blocker_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-debug-40:\\layout_activity_parent.xml.flat",
+        "source": "C:\\Users\\Utilisateur\\.gradle\\daemon\\9.3.0\\cont.role.app-main-42:\\layout\\activity_parent.xml"
+    }
+]

@@ -1,0 +1,43 @@
+cont.role.app-recyclerview-1.1.0-0 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\1841575760849d1e9f25a2b879861c43\workspace\transformed\recyclerview-1.1.0\res
+cont.role.app-credentials-1.2.0-rc01-1 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\21a2350585293007cf89b05f9a1786ea\workspace\transformed\credentials-1.2.0-rc01\res
+cont.role.app-drawerlayout-1.1.1-2 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\22f86b537808698f34962015e064740a\workspace\transformed\drawerlayout-1.1.1\res
+cont.role.app-viewpager2-1.0.0-3 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\25fb1f836505df51055222ef1163827e\workspace\transformed\viewpager2-1.0.0\res
+cont.role.app-core-1.13.1-4 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\2a4988f56d4dd45743a305bbd4ecd90c\workspace\transformed\core-1.13.1\res
+cont.role.app-activity-1.8.0-5 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\2d69eafebad9bafd094ea1def4c12be3\workspace\transformed\activity-1.8.0\res
+cont.role.app-core-runtime-2.2.0-6 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\2ea2ac298a5c4dd3840c4f20d5af3903\workspace\transformed\core-runtime-2.2.0\res
+cont.role.app-coordinatorlayout-1.1.0-7 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\30903a3666fc613f43f30473d927e6cf\workspace\transformed\coordinatorlayout-1.1.0\res
+cont.role.app-credentials-play-services-auth-1.2.0-rc01-8 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\377d5f10839b63f98320f4a7bcbed312\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\res
+cont.role.app-emoji2-1.2.0-9 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\3cc7fd640e527bc814cd52d448bc449c\workspace\transformed\emoji2-1.2.0\res
+cont.role.app-savedstate-1.2.1-10 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\4fae8fb802654dae2e0345506d7a44e4\workspace\transformed\savedstate-1.2.1\res
+cont.role.app-lifecycle-livedata-core-2.6.2-11 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\5dcd5da8c6900621751e3411ed1eb878\workspace\transformed\lifecycle-livedata-core-2.6.2\res
+cont.role.app-emoji2-views-helper-1.2.0-12 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\6182656ee3f67c15f7349a0dcb44f320\workspace\transformed\emoji2-views-helper-1.2.0\res
+cont.role.app-constraintlayout-2.1.4-13 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\68afaef1a01ecbb8f29d32a1fe9c1851\workspace\transformed\constraintlayout-2.1.4\res
+cont.role.app-lifecycle-viewmodel-2.6.2-14 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\782b3c2baa71806685c9a2f697bd519b\workspace\transformed\lifecycle-viewmodel-2.6.2\res
+cont.role.app-browser-1.4.0-15 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\798d39506d54d79e3e94f80bb40dca63\workspace\transformed\browser-1.4.0\res
+cont.role.app-firebase-common-21.0.0-16 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\7f8208e00f50754a74a7dae16df31f52\workspace\transformed\firebase-common-21.0.0\res
+cont.role.app-play-services-auth-20.7.0-17 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\83d91a5a9b8ed160fd74ce30e06b8b51\workspace\transformed\play-services-auth-20.7.0\res
+cont.role.app-play-services-base-18.5.0-18 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\84f4cdfb68477ad3eedf2d949b324410\workspace\transformed\play-services-base-18.5.0\res
+cont.role.app-appcompat-1.6.1-19 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\84ffdc98582ade4bf5aee46fc4c48f5d\workspace\transformed\appcompat-1.6.1\res
+cont.role.app-play-services-basement-18.4.0-20 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\86dbf4193789a50939c64384b0c0be4e\workspace\transformed\play-services-basement-18.4.0\res
+cont.role.app-profileinstaller-1.3.0-21 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\9bffb5b05139ecfb302571cc11fde197\workspace\transformed\profileinstaller-1.3.0\res
+cont.role.app-lifecycle-runtime-2.6.2-22 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\9c09709d59316619399422f8a8a8ee4d\workspace\transformed\lifecycle-runtime-2.6.2\res
+cont.role.app-material-1.12.0-23 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\a2d60af263c71ddb8594fd1c4d168c04\workspace\transformed\material-1.12.0\res
+cont.role.app-core-ktx-1.13.1-24 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\a5a584a69a9e65083791c60222edda1a\workspace\transformed\core-ktx-1.13.1\res
+cont.role.app-transition-1.5.0-25 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\ab2e3c5555211d56abbe2da55c08b3bd\workspace\transformed\transition-1.5.0\res
+cont.role.app-fragment-1.3.6-26 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\ac498df1187eadaa667403a05128483e\workspace\transformed\fragment-1.3.6\res
+cont.role.app-lifecycle-process-2.6.2-27 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\b843dce37dab150b34cad7fdf2e78dea\workspace\transformed\lifecycle-process-2.6.2\res
+cont.role.app-cardview-1.0.0-28 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\b932a80fd9b327060f421c4c63f2a285\workspace\transformed\cardview-1.0.0\res
+cont.role.app-annotation-experimental-1.4.0-29 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\bfc28f9d8765d1d4fab6551b0d8793d1\workspace\transformed\annotation-experimental-1.4.0\res
+cont.role.app-play-services-maps-19.0.0-30 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\c82a9d5db6001231e7f51ec6a8b11df9\workspace\transformed\play-services-maps-19.0.0\res
+cont.role.app-lifecycle-livedata-2.6.2-31 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\d107aa302be6c62b8a0fe44614631453\workspace\transformed\lifecycle-livedata-2.6.2\res
+cont.role.app-lifecycle-viewmodel-savedstate-2.6.2-32 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\f4393d6be472456c4abc83a5ec2b82f9\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+cont.role.app-startup-runtime-1.1.1-33 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\f926f55bdb528b467d02fbc3de649d03\workspace\transformed\startup-runtime-1.1.1\res
+cont.role.app-appcompat-resources-1.6.1-34 C:\Users\Utilisateur\.gradle\caches\9.3.0\transforms\fc0cc65d39ce097aa590a99ddb467e78\workspace\transformed\appcompat-resources-1.6.1\res
+cont.role.app-pngs-35 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\build\generated\res\pngs\debug
+cont.role.app-res-36 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\build\generated\res\processDebugGoogleServices
+cont.role.app-resValues-37 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\build\generated\res\resValues\debug
+cont.role.app-packageDebugResources-38 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+cont.role.app-packageDebugResources-39 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+cont.role.app-merged_res-40 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\build\intermediates\merged_res\debug
+cont.role.app-debug-41 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\src\debug\res
+cont.role.app-main-42 C:\Users\Utilisateur\Downloads\parental-control-app f\parental-control-app\app\src\main\res

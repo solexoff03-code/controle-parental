@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "cont.role.app-mergeDebugResources-39:/layout/activity_child.xml",
+        "source": "cont.role.app-main-42:/layout/activity_child.xml"
+    },
+    {
+        "merged": "cont.role.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "cont.role.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "cont.role.app-mergeDebugResources-39:/layout/activity_parent.xml",
+        "source": "cont.role.app-main-42:/layout/activity_parent.xml"
+    },
+    {
+        "merged": "cont.role.app-mergeDebugResources-39:/layout/activity_blocker_settings.xml",
+        "source": "cont.role.app-main-42:/layout/activity_blocker_settings.xml"
+    }
+]
