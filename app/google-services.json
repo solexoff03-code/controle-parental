@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "720809748472",
+    "firebase_url": "https://controle-parentale-f0594-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "controle-parentale-f0594",
+    "storage_bucket": "controle-parentale-f0594.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720809748472:android:14bd9ea7d26dcdbb07980d",
+        "android_client_info": {
+          "package_name": "cont.role"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgxWr0OvMbkD0EH7U2XFTe0jLBkWTuANQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
