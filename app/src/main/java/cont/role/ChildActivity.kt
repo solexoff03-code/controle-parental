@@ -32,8 +32,10 @@ class ChildActivity : AppCompatActivity() {
         setContentView(R.layout.activity_child)
 
         childDeviceId = getSharedPreferences("prefs", MODE_PRIVATE)
-            .getString("deviceId", null) ?: deviceId().also {
-                getSharedPreferences("prefs", MODE_PRIVATE).edit().putString("deviceId", it).apply()
+            .getString("deviceId", null) ?: run {
+                val newId = deviceId()
+                getSharedPreferences("prefs", MODE_PRIVATE).edit().putString("deviceId", newId).apply()
+                newId
             }
 
         val codeView = findViewById<TextView>(R.id.tvCode)
