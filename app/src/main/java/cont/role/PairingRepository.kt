@@ -61,3 +61,6 @@ object PairingRepository {
         }, onError = onError)
     }
 }
+
+/** Identifiant simple et stable pour l'appareil (à améliorer avec un UUID persistant en prod). */
+fun deviceId(): String = Random(System.currentTimeMillis()).nextInt(100000, 999999).toString()
