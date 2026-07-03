@@ -37,9 +37,15 @@ class ChildActivity : AppCompatActivity() {
 
         val codeView = findViewById<TextView>(R.id.tvCode)
 
-        PairingRepository.generateCode(childDeviceId) { code ->
-            runOnUiThread { codeView.text = getString(R.string.code_display_label, code) }
-        }
+        PairingRepository.generateCode(
+            childDeviceId,
+            onResult = { code ->
+                runOnUiThread { codeView.text = "Code à donner au parent : $code" }
+            },
+            onError = { msg ->
+                runOnUiThread { codeView.text = "Erreur : $msg" }
+            }
+        )
 
         findViewById<Button>(R.id.btnRequestPermissions).setOnClickListener {
             requestLocationPermissions()
